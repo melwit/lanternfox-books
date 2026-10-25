@@ -20,6 +20,9 @@ h2{color:#1F5E4B;margin-top:48px}
 .card p{margin:0 0 12px}
 .btn{margin-top:auto;align-self:flex-start;background:#C8374A;color:#fff;padding:9px 18px;border-radius:999px;text-decoration:none;font-weight:bold}
 .btn.free{background:#1F5E4B}
+.btns{margin-top:auto;display:flex;flex-wrap:wrap;gap:10px}
+.btns .btn{margin-top:0}
+.btn.pdf{background:#fff;color:#1F5E4B;border:2px solid #1F5E4B}
 .legal{max-width:760px}
 .legal h2{margin-top:32px}
 footer{margin-top:60px;padding:24px 0;background:#22304A;color:#fff;font-size:15px}
