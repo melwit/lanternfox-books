@@ -25,8 +25,8 @@ h2{color:#1F5E4B;margin-top:48px}
 .buy summary::-webkit-details-marker{display:none}
 .buy summary::after{content:" ▾"}
 .buy[open] summary::after{content:" ▴"}
-.buy .menu{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:10;box-shadow:0 8px 24px rgba(34,48,74,.18);background:#fff;border:2px solid #1F5E4B;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
-.buy .menu a{padding:10px 16px;color:#1F5E4B;text-decoration:none;font-weight:bold;border-top:1px solid #DCE8E2}
+.buy .menu{position:absolute;left:0;top:calc(100% + 4px);min-width:200px;z-index:10;box-shadow:0 6px 18px rgba(34,48,74,.16);background:#fff;border:1.5px solid #1F5E4B;border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.buy .menu a{padding:6px 12px;font-size:14px;color:#1F5E4B;text-decoration:none;font-weight:bold;border-top:1px solid #DCE8E2;white-space:nowrap}
 .buy .menu a:first-child{border-top:0}
 .buy .menu a:hover{background:#EAF3EF}
 .legal{max-width:760px}
