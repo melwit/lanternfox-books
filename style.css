@@ -18,7 +18,7 @@ h2{color:#1F5E4B;margin-top:48px}
 .card h3{margin:14px 0 4px}
 .card .sub{color:#1F5E4B;font-size:15px;line-height:1.4;margin:0 0 10px}
 .card p{margin:0 0 12px}
-.btn{margin-top:auto;align-self:flex-start;background:#C8374A;color:#fff;padding:9px 18px;border-radius:999px;text-decoration:none;font-weight:bold}
+.btn{margin-top:auto;align-self:flex-start;background:#1F5E4B;color:#fff;padding:9px 18px;border-radius:999px;text-decoration:none;font-weight:bold}
 .btn.free{background:#1F5E4B}
 .btns{margin-top:auto;display:flex;flex-wrap:wrap;gap:10px}
 .btns .btn{margin-top:0}
