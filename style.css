@@ -20,12 +20,12 @@ h2{color:#1F5E4B;margin-top:48px}
 .card p{margin:0 0 12px}
 .btn{margin-top:auto;align-self:flex-start;background:#1F5E4B;color:#fff;padding:9px 18px;border-radius:999px;text-decoration:none;font-weight:bold}
 .btn.free{background:#1F5E4B}
-.buy{margin-top:auto;align-self:stretch}
+.buy{margin-top:auto;align-self:stretch;position:relative}
 .buy summary{list-style:none;cursor:pointer;display:inline-block}
 .buy summary::-webkit-details-marker{display:none}
 .buy summary::after{content:" ▾"}
 .buy[open] summary::after{content:" ▴"}
-.buy .menu{margin-top:8px;background:#fff;border:2px solid #1F5E4B;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.buy .menu{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:10;box-shadow:0 8px 24px rgba(34,48,74,.18);background:#fff;border:2px solid #1F5E4B;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
 .buy .menu a{padding:10px 16px;color:#1F5E4B;text-decoration:none;font-weight:bold;border-top:1px solid #DCE8E2}
 .buy .menu a:first-child{border-top:0}
 .buy .menu a:hover{background:#EAF3EF}
