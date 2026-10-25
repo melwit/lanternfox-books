@@ -30,6 +30,7 @@ h2{color:#1F5E4B;margin-top:48px}
 .buy .menu a:first-child{border-top:0}
 .buy .menu a:hover{background:#EAF3EF}
 .shoplink{text-align:right;margin:18px 0 0}
+.lang{color:#1F5E4B;font-size:22px;margin:36px 0 14px}
 .shoplink a{display:inline-block;padding:6px 14px;border:1.5px solid #1F5E4B;border-radius:999px;color:#1F5E4B;background:#fff;text-decoration:none;font-weight:bold;font-size:14px}
 .shoplink a:hover{background:#EAF3EF}
 .legal{max-width:760px}
