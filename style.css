@@ -29,6 +29,9 @@ h2{color:#1F5E4B;margin-top:48px}
 .buy .menu a{padding:6px 12px;font-size:14px;color:#1F5E4B;text-decoration:none;font-weight:bold;border-top:1px solid #DCE8E2;white-space:nowrap}
 .buy .menu a:first-child{border-top:0}
 .buy .menu a:hover{background:#EAF3EF}
+.shoplink{text-align:right;margin:18px 0 0}
+.shoplink a{display:inline-block;padding:6px 14px;border:1.5px solid #1F5E4B;border-radius:999px;color:#1F5E4B;background:#fff;text-decoration:none;font-weight:bold;font-size:14px}
+.shoplink a:hover{background:#EAF3EF}
 .legal{max-width:760px}
 .legal h2{margin-top:32px}
 footer{margin-top:60px;padding:24px 0;background:#22304A;color:#fff;font-size:15px}
