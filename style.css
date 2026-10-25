@@ -20,12 +20,15 @@ h2{color:#1F5E4B;margin-top:48px}
 .card p{margin:0 0 12px}
 .btn{margin-top:auto;align-self:flex-start;background:#1F5E4B;color:#fff;padding:9px 18px;border-radius:999px;text-decoration:none;font-weight:bold}
 .btn.free{background:#1F5E4B}
-.btns{margin-top:auto;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
-.btns .row{display:flex;flex-wrap:nowrap;gap:10px}
-.btns .row .btn{white-space:nowrap}
-.btns .btn{margin-top:0}
-.btn.pdf{background:#fff;color:#1F5E4B;border:2px solid #1F5E4B}
-.btn.small{padding:4px 12px;font-size:14px;border-width:1.5px}
+.buy{margin-top:auto;align-self:stretch}
+.buy summary{list-style:none;cursor:pointer;display:inline-block}
+.buy summary::-webkit-details-marker{display:none}
+.buy summary::after{content:" ▾"}
+.buy[open] summary::after{content:" ▴"}
+.buy .menu{margin-top:8px;background:#fff;border:2px solid #1F5E4B;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.buy .menu a{padding:10px 16px;color:#1F5E4B;text-decoration:none;font-weight:bold;border-top:1px solid #DCE8E2}
+.buy .menu a:first-child{border-top:0}
+.buy .menu a:hover{background:#EAF3EF}
 .legal{max-width:760px}
 .legal h2{margin-top:32px}
 footer{margin-top:60px;padding:24px 0;background:#22304A;color:#fff;font-size:15px}
